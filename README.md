@@ -5,7 +5,6 @@ Setup easily a profile for git-config
 Note that you can alternatively use `includeIf` in your `~/.gitconfig`, like so:
 
 ```
-; include for all repositories inside $HOME/to/group
 [includeIf "gitdir:~/work/"]
 	path = ~/.gitconfig-work
 ```
